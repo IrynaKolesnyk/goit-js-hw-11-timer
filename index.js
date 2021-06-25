@@ -36,7 +36,7 @@ class CountdownTimer {
         return { days, hours, mins, secs }
     };
 
-    showDateInMarcup(days, hours, mins, secs) {
+    showDate(days, hours, mins, secs) {
         this.days.textContent = days;
         this.hours.textContent = hours;
         this.minutes.textContent = mins;
